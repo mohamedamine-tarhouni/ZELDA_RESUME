@@ -279,22 +279,27 @@ function update() {
   }
 }
 function change_to_skills() {
-  player.x = 760;
-  player.y = 1865;
+  alert("teleporting to skills...")
+  player.x = 820;
+  player.y = 1900;
 }
 function change_to_presentation() {
-  player.x = 1595;
-  player.y = 498;
+  alert("teleporting to presentation...")
+  player.x = 1710;
+  player.y = 520;
 }
 function change_to_exp() {
+  alert("teleporting to experience...")
   player.x = 3854;
   player.y = 1574;
 }
 function change_to_int() {
+  alert("teleporting to interests...")
   player.x = 1851;
   player.y = 1982;
 }
 function change_to_lang() {
+  alert("teleporting to languages...")
   player.x = 2376;
   player.y = 2320;
 }
