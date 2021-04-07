@@ -1,0 +1,39 @@
+html{
+background-image: url("/assets/img/background.jpg");
+
+}
+
+body,
+#game-container {
+ margin-left: 10%; 
+  padding: 0;
+  overflow: hidden;
+}
+@font-face {
+  font-family: "HyruleFont";
+  src: url("/assets/Custom-fonts/HyliaSerifBeta-Regular.otf");
+}
+input{
+  font-family: "HyruleFont";
+  color: red;
+  background-color: black;
+  width: 240px;
+  height: 61px;
+  font-size: 36px;
+  border-radius: 20px;
+  margin-left: 6px;
+}
+.shortcuts{
+  border: solid;
+  background-image: url("../img/header.jpg");
+   background-repeat: none; 
+  width: 90%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+input:hover{
+  color:blue;
+}
+
+
